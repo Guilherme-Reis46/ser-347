@@ -11,19 +11,30 @@ Passo 1: Criação do presente repositório seguindo as orientações  da seçã
                                                      README
                                                      
 Passo 2: Clonaar o repositório ser-347
-- Foi criada de uma cópia do repositório remoto através do comando: git clone https://github.com/Guilherme-Reis46/ser-347;
-- Foi aplicado o comando "dir ser-347" para sair do diretório da pasta concorrente e alterá-lo para a pasta "ser-347";
-- Foi aplicado o comando "dir/ ah" para listas todos os arquivos, inclusives os ocultos, presentes na pasta "ser-347". Foram listados os arquivos: .gitignore
+# Foi criada de uma cópia do repositório remoto através do comando: git clone https://github.com/Guilherme-Reis46/ser-347;
+# Foi aplicado o comando "dir ser-347" para sair do diretório da pasta concorrente e alterá-lo para a pasta "ser-347";
+# Foi aplicado o comando "dir/ ah" para listas todos os arquivos, inclusives os ocultos, presentes na pasta "ser-347". Foram listados os arquivos: .gitignore
                                                                                                                                                      LICENSE
                                                                                                                                                      README.me
                                                                                                                                                      
  Passo 3: Verificando o status do repositório
- - Foi aplicado o comando " git status" para vizualizar como o repositório git local se encontra em relação a possíveis modificações. 
+ # Foi aplicado o comando " git status" para vizualizar como o repositório git local se encontra em relação a possíveis modificações. 
                                                                                                                                       
 Passo 4: Modificando um arquivo no repositório ser-347.
-- O arquivo de texto "README" presente no repositório do Desktop foi alterado seguindo as diretrizes no tutorial.
-- Ao verificar o status do repositório usando o comando " git status", verificou-se que uma resposta no git confirmando a alteração
-- Com o comando " git checkout -- README.md", as alterações feitas no arquivo anteriormente foram desfeitas.
-- O arquivo README foi novamente alterado, porém, dessa vez a modificação feita no arquivo será inclusa na lista de atualizações do repositório com o uso do comando 
+# O arquivo de texto "README" presente no repositório do Desktop foi alterado seguindo as diretrizes no tutorial.
+# Ao verificar o status do repositório usando o comando " git status", verificou-se que uma resposta no git confirmando a alteração
+# Com o comando " git checkout -- README.md", as alterações feitas no arquivo anteriormente foram desfeitas.
+# O arquivo README foi novamente alterado, porém, dessa vez a modificação feita no arquivo será inclusa na lista de atualizações do repositório com o uso do comando 
 "git add README.md"
-- O comando " git commit -m "Primeira versão do arquivo README.md" " foi usado para salvar as alterações feitas no repositório
+# O comando " git commit -m "Primeira versão do arquivo README.md" " foi usado para salvar as alterações feitas no repositório.
+
+Passo 4: Sincronizando sua cópia local com o repositório remoto
+# Para alterar os arquivo README presente no repositório remoto com as alterações feitas no repositório local, foi usado o comando "git push".
+# Foi verificado que o arquivo README foi alterado no repositório remoto.
+
+Passo 5:  Adicionando um novo arquivo ao repositório ser-347
+# O arquivo "fatorial.py" foi criado na IDE Pycharm de acordo com as especificações presentes no tutorial.
+# O arquivo ".py" criado no IDE foi salvo dentro da pastas do repositório na máquina local
+# Com o comando "git add fatorial.py" o aquivo foi incluso dentro do repositório local
+#  O comando "git commit -m "Adicionando uma função para cálculo do fatorial"" foi usado para confirmar a inclusão do arquivo no repositóio
+# Por fim, foi usado o comando "git push" para enviar as alterações para o repositório no github

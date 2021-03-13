@@ -24,3 +24,6 @@ Passo 4: Modificando um arquivo no repositório ser-347.
 - O arquivo de texto "README" presente no repositório do Desktop foi alterado seguindo as diretrizes no tutorial.
 - Ao verificar o status do repositório usando o comando " git status", verificou-se que uma resposta no git confirmando a alteração
 - Com o comando " git checkout -- README.md", as alterações feitas no arquivo anteriormente foram desfeitas.
+- O arquivo README foi novamente alterado, porém, dessa vez a modificação feita no arquivo será inclusa na lista de atualizações do repositório com o uso do comando 
+"git add README.md"
+- O comando " git commit -m "Primeira versão do arquivo README.md" " foi usado para salvar as alterações feitas no repositório

@@ -1,0 +1,26 @@
+Nome: Guilherme Ignácio Reis 
+Disciplina: SER-347
+Professores: Dr.Thales Korting e Dr. Gilberto Queiroz
+
+Exercício 4 da atividade 1: " Crie um repositório experimental com alguns arquivos no formato texto e envie o endereço desse repositório para os professores da disciplina,
+                              com um resumo da sequência de comandos git utilizados no experimento.
+                          
+Passo 1: Criação do presente repositório seguindo as orientações  da seção "3.1.2.2. Criando um Repositório para Hospedar Código".
+         O presente repositório contém os arquivos: .gitignore
+                                                     LICENSE
+                                                     README
+                                                     
+Passo 2: Clonaar o repositório ser-347
+- Foi criada de uma cópia do repositório remoto através do comando: git clone https://github.com/Guilherme-Reis46/ser-347;
+- Foi aplicado o comando "dir ser-347" para sair do diretório da pasta concorrente e alterá-lo para a pasta "ser-347";
+- Foi aplicado o comando "dir/ ah" para listas todos os arquivos, inclusives os ocultos, presentes na pasta "ser-347". Foram listados os arquivos: .gitignore
+                                                                                                                                                     LICENSE
+                                                                                                                                                     README.me
+                                                                                                                                                     
+ Passo 3: Verificando o status do repositório
+ - Foi aplicado o comando " git status" para vizualizar como o repositório git local se encontra em relação a possíveis modificações. 
+                                                                                                                                      
+Passo 4: Modificando um arquivo no repositório ser-347.
+- O arquivo de texto "README" presente no repositório do Desktop foi alterado seguindo as diretrizes no tutorial.
+- Ao verificar o status do repositório usando o comando " git status", verificou-se que uma resposta no git confirmando a alteração
+- Com o comando " git checkout -- README.md", as alterações feitas no arquivo anteriormente foram desfeitas.

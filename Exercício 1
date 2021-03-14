@@ -10,7 +10,7 @@ Passo 1: Criação do presente repositório seguindo as orientações  da seçã
                                                      LICENSE
                                                      README
                                                      
-Passo 2: Clonaar o repositório ser-347
+Passo 2: Clonar o repositório ser-347
 # Foi criada de uma cópia do repositório remoto através do comando: git clone https://github.com/Guilherme-Reis46/ser-347;
 # Foi aplicado o comando "dir ser-347" para sair do diretório da pasta concorrente e alterá-lo para a pasta "ser-347";
 # Foi aplicado o comando "dir/ ah" para listas todos os arquivos, inclusives os ocultos, presentes na pasta "ser-347". Foram listados os arquivos: .gitignore
